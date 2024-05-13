@@ -1,0 +1,107 @@
+body {
+  background: #f9f7fe;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  padding: 30px 0;
+}
+
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+  color: rgba(39, 33, 66, 0.4);
+  border-top: 1px solid #f9f7fe;
+  padding-top: 15px;
+}
+
+a {
+  color: #885df1;
+}
+
+/* Classes */
+
+.container {
+  background: white;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
+.form-input {
+  background-color: #f9f7fe;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  padding: 20px;
+  width: 75%;
+}
+
+.form-button {
+  background-color: #885df1;
+  color: white;
+  font-size: 16px;
+  line-height: 1;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  margin-left: 5px;
+}
+
+/* Main Section*/
+
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* City = Left */
+
+.current-city h1 {
+  font-size: 38px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.current-city p {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.current-city strong {
+  color: #f65282;
+}
+
+/* Temperature = Right */
+
+.current-temp {
+  display: flex;
+  font-size: 48px;
+}
+
+.current-temp-icon {
+  position: relative;
+  font-size: 40px;
+  margin-right: 10px;
+  top: 26px;
+}
+
+.current-temp-number {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.current-temp-unit {
+  position: relative;
+  font-size: 28px;
+  top: 10px;
+}
